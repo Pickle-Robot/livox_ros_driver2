@@ -11,11 +11,6 @@ project(livox_ros_driver2 VERSION ${LIVOX_ROS_DRIVER2_VERSION} LANGUAGES CXX)
 message(STATUS "livox_ros_driver2 version: ${LIVOX_ROS_DRIVER2_VERSION}")
 
 #---------------------------------------------------------------------------------------
-# Add ROS Version MACRO
-#---------------------------------------------------------------------------------------
-add_definitions(-DBUILDING_ROS1)
-
-#---------------------------------------------------------------------------------------
 # find package and the dependecy
 #---------------------------------------------------------------------------------------
 find_package(Boost 1.54 REQUIRED COMPONENTS
